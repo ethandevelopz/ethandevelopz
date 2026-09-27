@@ -48,12 +48,10 @@ Contributed to:
 
 * Pipe manager optimization
 * Converting Nodes to a structure-of-arrays architecture
-* Power infrastructure
 * Pollution systems
 * Weather Station
 * Toy Rocket
 * Footstep Power Generator
-* Power pole drag placement
 
 ### Lapis Meta
 
