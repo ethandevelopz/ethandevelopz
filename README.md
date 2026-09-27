@@ -2,11 +2,11 @@
 
 **Roblox Backend Developer | Networking | Infrastructure | Optimization**
 
-I develop backend systems, networking libraries, and developer infrastructure for Roblox. My work focuses on performance, reliability, and reusable architecture.
+I build backend systems, networking libraries, and developer infrastructure for Roblox, with a focus on performance, reliability, and reusable architecture.
 
 ## About
 
-* Roblox backend developer focused on networking and infrastructure
+* Roblox backend developer focused on networking, infrastructure, and optimization
 * Former scripter at **Industrialist**
 * Former developer at **Lapis Meta**
 * Founder and CEO of **Far Boundary**
@@ -17,9 +17,10 @@ I develop backend systems, networking libraries, and developer infrastructure fo
 
 ### [Network Library](https://github.com/ethandevelopz/network-library)
 
-High-performance Roblox networking library using Luau buffers and binary serialization.
+A Roblox networking library built around Luau buffers and binary serialization.
 
 * Integer-ID packet serialization
+* Binary encoding and decoding
 * Heartbeat batching
 * Rate limiting
 * Request/response multiplexing
@@ -27,16 +28,18 @@ High-performance Roblox networking library using Luau buffers and binary seriali
 
 ### [Promise](https://github.com/ethandevelopz/promise)
 
-Cancellation-aware Promise implementation for Roblox.
+A cancellation-aware Promise library for Luau/Roblox built around structured cancellation, multiple return values, composable async workflows, and Roblox-native utilities.
 
-* Promise chaining and error handling
 * Consumer-aware cancellation
 * Multiple return values
 * Thenable assimilation
-* `all`, `race`, `allSettled`, `any`
+* Promise chaining and error handling
+* `all`, `race`, `allSettled`, `any`, `some`
+* `map`, `filter`, `each`
+* `try`, `defer`, `promisify`, `tap`
 * `delay`, `timeout`, `retry`, `fromEvent`
 
-**22 tests passed, 0 failed**
+**62 tests passed, 0 failed**
 
 ## Experience
 
